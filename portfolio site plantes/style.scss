@@ -1,0 +1,394 @@
+body {
+
+    /*header*/
+    header {
+        width: 100%;
+        background-color: forestgreen;
+
+        .navbar {
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: auto;
+
+            .logo {
+                font-family: 'Pattaya', sans-serif;
+                color: white;
+            }
+
+            .menu {
+                width: 30%;
+                color: white;
+
+                @media only screen and (max-width: 768px){
+                    width: 50%;
+                }
+
+                @media only screen and (max-width: 375px){
+                    width: 80%;
+                }
+
+                ul {
+                    font-family: 'Lato', sans-serif;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    list-style: none;
+
+                    @media only screen and (max-width: 768px) {
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+
+    /*fin de header*/
+
+    /*section 1*/
+    .section1 {
+        width: 100%;
+        height: 1300px;
+        background-image: url(hands.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        @media only screen and (max-width: 768px) {
+            height: 550px;
+        }
+
+        @media only screen and (max-width: 375px) {
+            height: 300px;
+        }
+    }
+
+    /*fin de section 1*/
+
+    /*section 2*/
+    .section2 {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        padding-top: 10%;
+
+        @media only screen and (max-width: 768px) {
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 375px){
+            flex-direction: column;
+        }
+
+        .magasin {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            i {
+                font-size: 50px;
+                color: forestgreen;
+            }
+
+            p {
+                font-family: 'Roboto', sans-serif;
+                font-size: 25px;
+                font-weight: bold;
+            }
+        }
+
+        .retrait {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            i {
+                font-size: 50px;
+                color: forestgreen;
+            }
+
+            p {
+                font-family: 'Roboto', sans-serif;
+                font-size: 25px;
+                text-align: center;
+                font-weight: bold;
+            }
+        }
+
+        .livraison {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            i {
+                font-size: 50px;
+                color: forestgreen;
+            }
+
+            p {
+                font-family: 'Roboto', sans-serif;
+                font-size: 25px;
+                text-align: center;
+                font-weight: bold;
+            }
+        }
+    }
+
+    /*fin de section 2*/
+
+    /*section 3*/
+    .section3 {
+        width: 100%;
+        padding-top: 10%;
+
+        h2 {
+            text-align: center;
+            font-family: 'Lato', sans-serif;
+            font-size: 40px;
+        }
+
+        .plantes {
+            width: 80%;
+            padding-top: 5%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            @media only screen and (max-width: 768px) {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .plante1 {
+
+                img {
+                    width: 100%;
+                }
+
+                .info1 {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    @media only screen and (max-width: 375px) {
+                        flex-direction: column;
+                        padding-bottom: 5%;
+                    }
+
+                    div {
+
+                        .p1-p1 {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 20px;
+                        }
+
+                        .p1-p2 {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 20px;
+                            color: forestgreen;
+                        }
+                    }
+
+                    button {
+                        background-color: greenyellow;
+                        width: 30%;
+                        height: 30px;
+                        border-radius: 25px;
+                    }
+                }
+            }
+
+            .plante2 {
+
+                img {
+                    width: 100%;
+                }
+
+                .info2 {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    @media only screen and (max-width: 375px) {
+                        flex-direction: column;
+                        padding-bottom: 5%;
+                    }
+
+                    div {
+
+                        .p2-p1 {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 20px;
+                        }
+
+                        .p2-p2 {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 20px;
+                            color: forestgreen;
+                        }
+                    }
+
+                    button {
+                        background-color: greenyellow;
+                        width: 30%;
+                        height: 30px;
+                        border-radius: 25px;
+                    }
+                }
+            }
+
+            .plante3 {
+
+                img {
+                    width: 100%;
+                }
+
+                .info3 {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    @media only screen and (max-width: 375px) {
+                        flex-direction: column;
+                        padding-bottom: 5%;
+                    }
+
+                    div {
+
+                        .p3-p1 {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 20px;
+                        }
+
+                        .p3-p2 {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 20px;
+                            color: forestgreen;
+                        }
+                    }
+
+                    button {
+                        background-color: greenyellow;
+                        width: 30%;
+                        height: 30px;
+                        border-radius: 25px;
+                    }
+                }
+            }
+
+            .plante4 {
+
+                img {
+                    width: 100%;
+                }
+
+                .info4 {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    @media only screen and (max-width: 375px) {
+                        flex-direction: column;
+                    }
+
+                    div {
+
+                        .p4-p1 {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 20px;
+                        }
+
+                        .p4-p2 {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 20px;
+                            color: forestgreen;
+                        }
+                    }
+
+                    button {
+                        background-color: greenyellow;
+                        width: 30%;
+                        height: 30px;
+                        border-radius: 25px;
+                    }
+                }
+            }
+        }
+
+        .bouton {
+            width: 90%;
+            padding-top: 5%;
+            text-align: right;
+
+            @media only screen and (max-width: 375px){
+                text-align: left;
+            }
+
+            .vers {
+                background-color: forestgreen;
+                color: white;
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border-radius: 25px;
+            }
+        }
+    }
+
+    /*fin de section 3*/
+
+    /*footer*/
+    footer {
+        margin-top: 2%;
+        width: 100%;
+        height: auto;
+        background-color: forestgreen;
+
+        .foot {
+            width: 80%;
+            margin: auto;
+            padding-top: 2%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            @media only screen and (max-width: 375px){
+                justify-content: center;
+            }
+
+            .logo2 {
+                font-family: 'Pattaya', sans-serif;
+                color: white;
+                font-size: 25px;
+            }
+
+            .social {
+                width: 10%;
+
+                ul {
+                    display: flex;
+                    justify-content: space-between;
+                    list-style: none;
+                    font-size: 30px;
+                    color: white;
+
+                    @media only screen and (max-width: 768px) {
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+
+        .copy {
+            padding-bottom: 2px;
+            text-align: center;
+        }
+    }
+    /*fin de footer*/
+}
